@@ -6,12 +6,12 @@ var content = $('#content');
 var ghost = $('#bg-ghost-area');
 var logo = $('#bg-logo-container img');
 
-var map = L.mapbox.map('map', 'tarraschk.gm6bpp19', {
+var map = L.mapbox.map('map', 'cochu.i2eip66e', {
     scrollWheelZoom: false,
     shareControl: true
 })
-    .setView([45.7762, 4.8615], 13)
-    .addControl(L.mapbox.geocoderControl('tarraschk.gm6bpp19'));
+    .setView([48.849 2.375], 16)
+    .addControl(L.mapbox.geocoderControl('cochu.i2eip66e'));
 
 
 $(document).load(function() {
