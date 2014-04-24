@@ -10,7 +10,7 @@ var map = L.mapbox.map('map', 'cochu.i2eip66e', {
     scrollWheelZoom: false,
     shareControl: true
 })
-    .setView([48.849 2.375], 16)
+    .setView([48.849, 2.375], 16)
     .addControl(L.mapbox.geocoderControl('cochu.i2eip66e'));
 
 
