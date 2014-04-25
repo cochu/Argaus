@@ -49,7 +49,7 @@ $(document).ready(function() {
 	        // you can replace this test for anything else, to choose the right
 	        // marker on which to open a popup. by default, popups are exclusive
 	        // so opening a new one will close all of the others.
-	        if (marker.feature.properties.title === 'S.A.S. ARGAUS') {
+	        if (marker.feature.properties.title === 'La Cordée - Paris Gare de Lyon') {
 	            marker.openPopup();
 	        }
 	    });
